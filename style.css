@@ -1,0 +1,107 @@
+body{
+    text-align: center;
+    background-color:azure;
+}
+.menu{
+    list-style: none;
+    font-family: fantasy;
+    position: fixed;
+    top: 0px;
+    margin-top:0px;
+    z-index: 10;
+    cursor: pointer;
+    background:white;
+    width:100%;
+}
+.link{
+    display:inline;
+    color: aqua;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+#welcome{
+    height: 70px;
+    color: aquamarine;
+    opacity: 0.83;
+    display: table;
+    width: 100%;
+    height: 100%;
+    left:0;
+    top:0;
+    right:0;
+    bottom: 0;
+}
+
+.parallax-inner{
+    display:table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+.link:hover{
+ text-decoration: underline;
+    font-size:25px;
+    
+}
+.image{
+  border-radius: 50%;
+  margin-bottom: 50px;
+  margin-top:90px;
+    width:175px;
+}
+h1{
+    font-family: impact;
+    font-size: 40px;
+    font-weight: 300;
+}
+#welcome h1{
+  font-size:60px;  
+}
+h2{
+  font-family:sans-serif;
+  font-size:50px;
+}
+.name{
+    font-size: 80px;
+    font-family: 'Leckerli One', cursive;
+    
+}
+#bio{
+    padding:100px;
+    text-align: center;
+    font-family: 'Leckerli One', cursive;
+}
+a{
+  text-decoration:none;
+    color:crimson;
+    text-shadow: 2px 2px gainsboro;
+}
+#writings a{
+    text-shadow:none !important;   
+    text-decoration: underline !important;
+    color:blue;
+    
+}
+#contact{
+    background:firebrick;
+    
+}
+.contact1 a {
+    color:white;
+    text-shadow:none;
+}
+.contact1 h3{
+    display:inline;
+    
+}
+p{
+    max-width: 450px;
+    margin:25px auto;
+}
+#contact ifram{
+    width:100%;
+    bottom:0;
+    padding-bottom: 30px;
+}
